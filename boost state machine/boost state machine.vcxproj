@@ -147,12 +147,22 @@
     <ClCompile Include="BaseExample.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="ExamplesMain.cpp" />
     <ClCompile Include="VisitorExample.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    <ClCompile Include="SubMachineExample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_e1\Wolf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_e1\Wolf.h" />
+    <ClInclude Include="_e2\SimpleFSM.h" />
+    <ClInclude Include="_e3\StateMachine.h" />
+    <ClInclude Include="_e3\Wolf.h" />
+    <ClInclude Include="_e4\StateMachine.h" />
+    <ClInclude Include="_e4\Wolf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,24 +5,57 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{0e80d110-f55d-492a-a75b-f223d7131d05}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Examples\_e1">
+      <UniqueIdentifier>{6973ccd6-35d8-4b08-9051-0d38884801f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\_e2">
+      <UniqueIdentifier>{3e4f2b3f-1500-4269-9be0-34623dfc2cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\_e3">
+      <UniqueIdentifier>{fb62a1b4-a9ef-4119-a4e3-2be2e8615ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples\_e4">
+      <UniqueIdentifier>{7729c4ee-029a-4916-b6d4-15cb089da587}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BaseExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VisitorExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="_e1\Wolf.cpp">
+      <Filter>Examples\_e1</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamplesMain.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMachineExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_e1\Wolf.h">
+      <Filter>Examples\_e1</Filter>
+    </ClInclude>
+    <ClInclude Include="_e3\StateMachine.h">
+      <Filter>Examples\_e3</Filter>
+    </ClInclude>
+    <ClInclude Include="_e3\Wolf.h">
+      <Filter>Examples\_e3</Filter>
+    </ClInclude>
+    <ClInclude Include="_e4\StateMachine.h">
+      <Filter>Examples\_e4</Filter>
+    </ClInclude>
+    <ClInclude Include="_e4\Wolf.h">
+      <Filter>Examples\_e4</Filter>
+    </ClInclude>
+    <ClInclude Include="_e2\SimpleFSM.h">
+      <Filter>Examples\_e2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
